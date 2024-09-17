@@ -23,7 +23,7 @@ Para utilizar a aplicação, basta acessar o link ativo logo abaixo, selecionar 
 
 ### Link para a aplicação do app (LIVE)
 
-https://telemarketing-viux.onrender.com
+[https://telemarketing-viux.onrender.com](https://classificador-rfv.onrender.com)
 
 ### Dependencias
 
