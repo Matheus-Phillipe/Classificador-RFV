@@ -1,55 +1,55 @@
-# Título do projeto
+# Aplicação para classificar clientes utilizando o RFV
 
-Um simples resumo do uso/propósito do projeto.
+Esse projeto consiste em combinar tecnicas e habilidades envolvendo o Streamlit juntamente com github e um site de hospedagem para manter o app em LIVE. O host utilizado foi o Render.
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+O Projeto tem como objetivo aplicar as tecnicas aprendidas no curso Cientista de Dados pela EBAC e utilizar uma combinação de aplicação no Streamlit, repositórios do GitHub e um serviço de hosting (Servidor) para manter essa aplicação ativa.
+
+## Descrição da aplicação
+
+**RFV** significa recência, frequência, valor e é utilizado para segmentação de clientes baseado no comportamento de compras dos clientes e agrupa eles em clusters parecidos. Utilizando esse tipo de agrupamento podemos realizar ações de marketing e CRM melhores direcionadas, ajudando assim na personalização do conteúdo e até a retenção de clientes.
+
+Para cada cliente é preciso calcular cada uma das componentes abaixo:
+
+- Recência (R): Quantidade de dias desde a última compra.
+- Frequência (F): Quantidade total de compras no período.
+- Valor (V): Total de dinheiro gasto nas compras do período.
+
+E é isso que iremos fazer abaixo.
 
 ## Utilização
 
+Para utilizar a aplicação, basta acessar o link ativo logo abaixo, selecionar os dados a serem analisados.
+
+### Link para a aplicação do app (LIVE)
+
+https://telemarketing-viux.onrender.com
+
 ### Dependencias
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
-
-### Instalação
-
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+* Caso deseje rodar a aplicação nos eu proprio dispositivo, é necessario fazer o download da aplicação "app2.py". 
+* Utilizar de alguma IDE, prompt ou editor de textos para realizar alguma mudança desejada.
+* Ter instalado as bibliotecas utilizadas para aplicação.
+* As principais bibliotecas estão descritas no arquivo requirements.txt
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
+* Acessar o link (live) ou fazer o download da aplicação no seu dispositivo.
+* OBS: Caso optar pelo download será necessario navegar até o diretorio que o arquivo foi baixado e executar o comando streamlit run "app2.py" ou o nome do arquivo caso renomeado.
+* Selecionar o arquivo contendo os dados de analise de telemarketing
+* Nesse ponto, os dados serão exibidos, com a possibilidade de interação selecionando filtros e tipos de exibição dos dados.
 * Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
 
 ## Ajuda
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
+Caso esteja importando dados com colunas e variaveis diferentes, a aplicação não funcionará.
 ```
 
 ## Autores
 
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
+[Matheus Phillipe](https://www.linkedin.com/in/matheus-pcf/)
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
 
 ## Fontes de inspiração
 
