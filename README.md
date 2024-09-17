@@ -16,7 +16,6 @@ Para cada cliente é preciso calcular cada uma das componentes abaixo:
 - Frequência (F): Quantidade total de compras no período.
 - Valor (V): Total de dinheiro gasto nas compras do período.
 
-E é isso que iremos fazer abaixo.
 
 ## Utilização
 
